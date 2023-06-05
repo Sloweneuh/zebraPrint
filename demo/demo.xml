@@ -1,0 +1,45 @@
+<odoo>
+    <record id="atlas" model="printproducts.pcs">
+        <field name="name">PC Atlas</field>
+        <field name="price">849,00</field>
+        <field name="description">l'Atlas, le PC gamer abordable par excellence ! Pour moins de 900€, vous obtenez des performances de jeu de haut niveau grâce à la carte graphique RTX 3050 !</field>
+        <field name="memory">Corsair Vengeance LPX 16Go (2x8Go) DDR4 3200MHz</field>
+        <field name="storage">PNY CS1030 500GB M.2 NVMe</field>
+        <field name="casing">AZZA SPECTRA BLACK</field>
+        <field name="processor">AMD Ryzen 5 4500 (3.6 GHz / 4.1 GHz)</field>
+        <field name="motherboard">ASUS PRIME B450-PLUS</field>
+        <field name="graphics">Nvidia RTX 3050 8GB PNY VERTO</field>
+        <field name="powersupply">AZZA PSAZ-550W</field>
+        <field name="cooling">Watercooling Azza Galeforce 120mm ARGB</field>
+        <field name="opsys">Windows 10 (version d'essai)</field>
+    </record>
+    <record id="toyger" model="printproducts.pcs">
+        <field name="name">PC Toyger</field>
+        <field name="price">999,00</field>
+        <field name="description">Le PC Toyger est le compromis parfait entre prix et perfomances ! Il est équipé d'une carte graphique Nvidia RTX 3060 8GB qui vous permettra de jouer à tous les derniers jeux dans de bonnes conditions en 1440P</field>
+        <field name="memory">PNY XLR8 RGB DDR4 3200MHz 2x8Go</field>
+        <field name="storage">PNY CS1030 500GB M.2 NVMe</field>
+        <field name="casing">Xigmatek Phantom ARGB</field>
+        <field name="processor">AMD Ryzen 5 5500 4,2Ghz</field>
+        <field name="motherboard">Gigabyte B550M DS3H</field>
+        <field name="graphics">Nvidia RTX 3060 8GB PNY VERTO</field>
+        <field name="powersupply">Xigmatek 650W HYDRA Bronze</field>
+        <field name="cooling">Watercooling Azza Galeforce 120mm ARGB</field>
+        <field name="opsys">Windows 10 (version d'essai)</field>
+    </record>
+    <record id="bengal" model="printproducts.pcs">
+        <field name="name">PC Bengal</field>
+        <field name="price">1.029,00</field>
+        <field name="description">le Bengal, le PC gamer puissant et abordable ! Avec un prix très abordable, vous bénéficiez d'une puissance de jeu incroyable grâce à la carte graphique RX 6700</field>
+        <field name="memory">Corsair LPX Noir 2x8go 3200Mhz</field>
+        <field name="storage">PNY CS1030 500go M.2</field>
+        <field name="casing">MONTECH X3 GLASS (RGB non controlable)</field>
+        <field name="processor">AMD Ryzen 5 5500 4,2Ghz</field>
+        <field name="motherboard">Gigabyte B550M DS3H</field>
+        <field name="graphics">AMD RX 6700 10GB PULSE</field>
+        <field name="powersupply">MSI MAG A550BN 550W</field>
+        <field name="cooling">Azza Galeforce 240mm ARGB</field>
+        <field name="opsys">Windows 10 (version d'essai)</field>
+        <field name="accessory">Cable custom Radish Shifter Noir/Rouge)</field>
+    </record>
+</odoo>

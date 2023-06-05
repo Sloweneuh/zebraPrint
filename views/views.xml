@@ -1,0 +1,14 @@
+<odoo>
+    <record id="zebra_print_button" model="ir.ui.view">
+        <field name="name">Zebra Print Button</field>
+        <field name="model">product.template</field>
+        <field name="key">zebraPrint.zebra_print_button</field>
+        <field name="inherit_id"
+            ref="sale.product_template_form_view_sale_order_button" />
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_view_sales']" position="before">
+                <button name="action_zebra_print" string="Send to Zebra Printer" class="btn oe_stat_button" type="object" icon="fa-print"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

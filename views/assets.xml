@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template
+        id="assets_backend"
+        name="Zebra Print backend assets"
+        inherit_id="website.assets_backend"
+    >
+
+        <xpath expr="//script[last()]" position="after">
+            <script
+                type="text/javascript"
+                src="/zebraPrint/static/src/js/BrowserPrint.js"
+            />
+            <script
+                type="text/javascript"
+                src="/zebraPrint/static/src/js/sendToPrinter.js"
+            />
+        </xpath>
+
+    </template>
+
+</odoo>
